@@ -68,4 +68,5 @@ chmod +x *.sh
 
 ### **🖥️ Navigate the Menu:**
 - Use the whiptail interface to select options and provide the required information.
-/home/hamo/Pictures/Screenshots/Screenshot from 2025-04-19 14-48-02.png
+![Screenshot from 2025-04-19 14-48-02](https://github.com/user-attachments/assets/31aef1c8-8f6e-4aa7-84be-8b7869e88365)
+
