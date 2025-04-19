@@ -64,7 +64,8 @@ This project is a simple yet powerful **Database Management System (DBMS)** impl
 
 ### **1️⃣ Clone the Repository**  
 ```bash
-git clone https://github.com/mohesham59/Bash-Shell-Script-Database-Management-System-DBMS.git
+git clone https://github.com/mohesham59/Bash-Scripting.git
+
 cd Bash-Shell-Script-Database-Management-System-DBMS
 ```
 
