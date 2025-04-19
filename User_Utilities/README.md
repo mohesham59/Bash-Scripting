@@ -1,48 +1,46 @@
-# A TUI for Red Hat Administrative Tasks 🚀
+# **User Utilities GUI 🛠️**  
 
-## 💡 Overview:
-A TUI for Red Hat Administrative Tasks is a text-based user interface (TUI) script designed to streamline common user and group management tasks on Red Hat-based Linux systems. Utilizing `whiptail` to create a user-friendly, menu-driven interface, this script simplifies the execution of essential administrative functions, minimizing the need for direct command-line interaction.
+## 💡 **Overview**  
+**User Utilities GUI** is a **text-based user interface (TUI)** script designed to streamline common **user and group management** tasks on **Red Hat-based Linux systems**.  
+Using `whiptail`, it offers a clean and intuitive **menu-driven interface** to perform administrative operations **without needing to remember complex commands**.
 
-## 🛠️ Features:
-The script offers a comprehensive menu with the following options:
+---
+## ⚡ **Features**
 
-### **Add User:**
-- Easily add a new user to the system.
+### 👤 **User Management**  
 
-### **Modify User:**
-- **Change UID:** Update the User ID of an existing user.
-- **Change Primary Group:** Modify the primary group associated with a user.
-- **Add to Secondary Group:** Include a user in one or more secondary groups.
-- **Change Home Directory:** Set a new home directory for the user.
-- **Change Shell:** Update the login shell for the user.
+- **Add User** – Easily add a new user to the system.  
 
-### **Delete User:**
-- Remove an existing user from the system through a straightforward interface.
+- **Modify User**:  
+  - **Change UID** – Update the User ID of an existing user.  
+  - **Change Primary Group** – Modify the primary group associated with a user.  
+  - **Add to Secondary Group** – Include a user in one or more secondary groups.  
+  - **Change Home Directory** – Set a new home directory for the user.  
+  - **Change Shell** – Update the login shell for the user.  
 
-### **List All Users:**
-- View a list of all users currently present on the system.
+- **Delete User** – Remove an existing user through a straightforward interface.  
 
-### **Change Password of Existing User:**
-- Update the password for an existing user account.
+- **List All Users** – View a list of all users currently on the system.  
 
-### **Lock User Account:**
-- Lock a user account to prevent login access.
+- **Change Password** – Update the password for an existing user account.  
 
-### **Unlock User Account:**
-- Unlock a previously locked user account to restore login access.
+- **Lock User Account** – Lock a user account to prevent login access.  
 
-### **Add Group:**
-- Create a new group on the system with ease.
+- **Unlock User Account** – Unlock a previously locked user account to restore login access.  
 
-### **Delete Existing Group:**
-- Remove an existing group from the system.
+---
 
-### **Modify Group:**
-- **Change GID:** Update the Group ID of an existing group.
-- **Add Users to Group:** Include one or more users in a specified group.
+### 👥 **Group Management**  
 
-### **List All Groups:**
-- Display a list of all groups currently on the system.
+- **Add Group** – Create a new group on the system with ease.  
+
+- **Delete Group** – Remove an existing group from the system.  
+
+- **Modify Group**:  
+  - **Change GID** – Update the Group ID of an existing group.  
+  - **Add Users to Group** – Include one or more users in a specified group.  
+
+- **List All Groups** – Display a list of all groups currently on the system.
 
 ## 📝 Prerequisites:
 - **whiptail:** Required for the graphical TUI interface.
