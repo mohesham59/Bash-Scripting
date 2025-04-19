@@ -6,7 +6,8 @@
 input_cancel() {
 	if [ $? -ne 0 ]; 
 	then
-		return  # Return directly to the same interface if the input is canceled
+		main_menu
+		exit 1
 	fi
 }
 #=======================
